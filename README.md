@@ -28,7 +28,7 @@ git submodule update --remote --merge
 | [`spudec`](https://github.com/zecoxao/spudec) | Cell **SPU** | PS3 |
 | [`startrekdec`](https://github.com/zecoxao/startrekdec) | **Kirk** and **Spock** crypto co-processors | PSP |
 | [`f00ddec`](https://github.com/zecoxao/f00ddec) | **F00D** security processor (Toshiba MeP) | PS Vita |
-| [`rl78dec`](https://github.com/zecoxao/rl78dec) | Renesas **RL78** syscon | PS4 / PS5 |
+| [`rl78dec`](https://github.com/zecoxao/rl78dec) | Renesas **RL78** syscon | PS4 / PS Vita |
 | [`mechadec`](https://github.com/zecoxao/mechadec) | Sony **SPC970** MechaCon | PS2 |
 
 ## What they have in common
