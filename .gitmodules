@@ -1,0 +1,20 @@
+[submodule "mechadec"]
+	path = mechadec
+	url = https://github.com/zecoxao/mechadec.git
+	branch = main
+[submodule "spudec"]
+	path = spudec
+	url = https://github.com/zecoxao/spudec.git
+	branch = master
+[submodule "rl78dec"]
+	path = rl78dec
+	url = https://github.com/zecoxao/rl78dec.git
+	branch = main
+[submodule "f00ddec"]
+	path = f00ddec
+	url = https://github.com/zecoxao/f00ddec.git
+	branch = main
+[submodule "startrekdec"]
+	path = startrekdec
+	url = https://github.com/zecoxao/startrekdec.git
+	branch = main
