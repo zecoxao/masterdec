@@ -18,3 +18,7 @@
 	path = startrekdec
 	url = https://github.com/zecoxao/startrekdec.git
 	branch = main
+[submodule "allegrexdec"]
+	path = allegrexdec
+	url = https://github.com/zecoxao/allegrexdec.git
+	branch = main

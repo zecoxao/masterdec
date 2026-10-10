@@ -27,6 +27,7 @@ git submodule update --remote --merge
 |---|---|---|
 | [`spudec`](https://github.com/zecoxao/spudec) | Cell **SPU** | PS3 |
 | [`startrekdec`](https://github.com/zecoxao/startrekdec) | **Kirk** and **Spock** crypto co-processors | PSP |
+| [`allegrexdec`](https://github.com/zecoxao/allegrexdec) | **Allegrex** main CPU (MIPS II + FPU + VFPU) | PSP |
 | [`f00ddec`](https://github.com/zecoxao/f00ddec) | **F00D** security processor (Toshiba MeP) | PS Vita |
 | [`rl78dec`](https://github.com/zecoxao/rl78dec) | Renesas **RL78** syscon | PS4 / PS Vita |
 | [`mechadec`](https://github.com/zecoxao/mechadec) | Sony **SPC970** MechaCon | PS2 |
@@ -63,6 +64,12 @@ Where they differ is the decoder, and that difference is the interesting part:
   belongs to the operation rather than the prefix. It ships its own IDA
   processor module and ROM loader, both driven by the same decoder the
   decompiler uses.
+* **allegrexdec** carries a full MIPS decoder that folds branch *delay slots*
+  into their owning transfer, plus the Allegrex FPU and the VFPU vector unit —
+  whose register naming and ~300-form opcode table are generated from kotcrab's
+  [`ghidra-allegrex`](https://github.com/kotcrab/ghidra-allegrex) SLEIGH. It
+  pairs with [`prxldr`](https://github.com/zecoxao/prxldr_python) and loads PSP
+  ELF/PRX headless.
 
 ## Not included
 
